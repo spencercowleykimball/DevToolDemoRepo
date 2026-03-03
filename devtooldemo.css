@@ -1,4 +1,6 @@
-
+/* ************************* */
+/* ********* FONTS ********* */
+/* ************************* */
 .ibm-plex-mono-thin {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 100;
@@ -17,12 +19,147 @@
   font-style: normal;
 }
 
+.geist-font {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.besley {
+  font-family: "Besley", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.figtree {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
+/* ****************************************** */
+/* ********* Main Styles - Elements ********* */
+/* ****************************************** */
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+}
+
+button {
+  font-size: 35px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background-color: rgb(183, 183, 235);
+  border-radius: 15px;
+}
+
+button:hover {
+  font-size: 40px;
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  background-color: rgb(235, 223, 183);
+  border-radius: 15px;
+}
+
+/* ******************************************** */
+/* Items for the Main Flow of the Dev Tool Demo */
+/* ******************************************** */
 .card {
-    width: 300px;
-    height: 300px;
-    border: 10px solid black;
-    border-radius: 20px;
-    background-color: rgb(19, 133, 179);
-    color: white;
-    justify-content: center;
+  background-color: rgb(19, 133, 179);
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.correct-card {
+  background-color: rgb(19, 133, 179);
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.correct-card:hover {
+  background-color: green;
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.wrong-card {
+  background-color: rgb(19, 133, 179);
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.wrong-card:hover {
+  background-color: red;
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-flow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 0;
+  margin: 0 auto;
 }
