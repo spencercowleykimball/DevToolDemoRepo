@@ -171,8 +171,8 @@
 
 .card-slide-fwd-center, .card-swirl-in-right-back, .card-flicker-in, .card-swing-in, .card-swing-in2 {
     background-color: rgb(19, 133, 179);
-    width: 500px;
-    height: 300px;
+    width: 100px;
+    height: 150px;
     border: 1px solid white;
     border-radius: 20px;
     color: white;

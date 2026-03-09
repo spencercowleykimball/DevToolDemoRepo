@@ -44,11 +44,17 @@
 /* ********* Main Styles - Elements ********* */
 /* ****************************************** */
 h1 {
-  font-size: 100px;
+  font-size: 60px;
 }
 
 h2 {
   font-size: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  padding: 0;
+  margin: 10px;
 }
 
 p {
@@ -80,8 +86,8 @@ button:hover {
 /* ******************************************** */
 .card {
   background-color: rgb(19, 133, 179);
-  width: 500px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   border: 1px solid white;
   border-radius: 20px;
   color: white;
@@ -94,8 +100,8 @@ button:hover {
 
 .correct-card {
   background-color: rgb(19, 133, 179);
-  width: 500px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   border: 1px solid white;
   border-radius: 20px;
   color: white;
@@ -108,8 +114,6 @@ button:hover {
 
 .correct-card:hover {
   background-color: green;
-  width: 500px;
-  height: 300px;
   border: 1px solid white;
   border-radius: 20px;
   color: white;
@@ -122,8 +126,8 @@ button:hover {
 
 .wrong-card {
   background-color: rgb(19, 133, 179);
-  width: 500px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   border: 1px solid white;
   border-radius: 20px;
   color: white;
@@ -136,8 +140,6 @@ button:hover {
 
 .wrong-card:hover {
   background-color: red;
-  width: 500px;
-  height: 300px;
   border: 1px solid white;
   border-radius: 20px;
   color: white;
